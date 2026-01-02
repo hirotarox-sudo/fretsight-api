@@ -2,8 +2,8 @@ fastapi
 uvicorn
 python-multipart
 basic-pitch
-pretty_midi
-numpy<2
+pretty_midi>=0.2.10
+numpy==1.23.5
 imageio-ffmpeg
 
 
