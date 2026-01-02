@@ -7,6 +7,12 @@ import subprocess
 from basic_pitch.inference import predict, Model
 from basic_pitch import ICASSP_2022_MODEL_PATH
 import pretty_midi
+import sys
+import os
+
+# Create backend directory plain to allow imports
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from logic import calculate_hand_positions
 import imageio_ffmpeg
 import sys
