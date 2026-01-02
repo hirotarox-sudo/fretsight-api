@@ -6,6 +6,6 @@ pretty_midi
 numpy
 imageio-ffmpeg
 
-spleeter
+
 
 networkx
