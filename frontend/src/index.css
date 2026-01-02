@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for fretboard if needed */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #2c2c2c; 
+}
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 4px;
+}
